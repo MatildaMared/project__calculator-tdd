@@ -7,7 +7,7 @@ describe("App component", () => {
     render(<App />);
   });
 
-  it("should render a calculator", () => {
+  it("should render the calculator", () => {
     render(<App />);
     expect(screen.getByTestId("calculator")).toBeDefined();
   });
